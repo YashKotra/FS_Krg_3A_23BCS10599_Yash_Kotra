@@ -1,15 +1,18 @@
-const logs = ({ logs }) => {
+import React from "react";
+
+const Logs = ({ logs }) => {
   return (
-    <ul>
-      <li>
-        High Carbon Activity:{" "}
-        {logs
-          .filter((log) => log.carbon > 4)
-          .map((log) => log.activity)
-          .join(", ")}
-      </li>
-    </ul>
+    <div>
+      <h2>Activity Logs</h2>
+      <ul>
+        {logs.map((log) => (
+          <li key={log.id}>
+            {log.activity}: {log.carbon} carbon units
+          </li>
+        ))}
+      </ul>
+    </div>
   );
 };
 
-export default logs;
+export default Logs;
