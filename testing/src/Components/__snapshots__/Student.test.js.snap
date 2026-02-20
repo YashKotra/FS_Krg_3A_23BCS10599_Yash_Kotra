@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Student Component Snapshot Test render Student snapshot 1`] = `
+<div>
+  <div
+    data-testid="student-container"
+  >
+    <h2>
+      John Doe
+    </h2>
+    <p>
+      Age: 
+      20
+    </p>
+    <p>
+      Section: 
+      A
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Student Component Snapshot Test render Student with different data snapshot 1`] = `
+<div>
+  <div
+    data-testid="student-container"
+  >
+    <h2>
+      Jane Smith
+    </h2>
+    <p>
+      Age: 
+      19
+    </p>
+    <p>
+      Section: 
+      B
+    </p>
+  </div>
+</div>
+`;
