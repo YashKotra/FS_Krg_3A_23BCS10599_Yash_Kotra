@@ -54,6 +54,12 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+/* Utility class for light background panels to ensure readable text */
+.light-card,
+.light-card * {
+  color: #213547 !important;
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;

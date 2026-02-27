@@ -1,15 +1,9 @@
 // src/pages/Reports.jsx
-import Typography from '@mui/material/Typography';
-
 const Reports = () => {
   return (
     <div>
-      <Typography variant="h4" gutterBottom>
-        Reports & Analytics
-      </Typography>
-      <Typography paragraph>
-        Detailed reports and carbon footprint analysis coming soon...
-      </Typography>
+      <h4>Reports & Analytics</h4>
+      <p>Detailed reports and carbon footprint analysis coming soon...</p>
     </div>
   );
 };
