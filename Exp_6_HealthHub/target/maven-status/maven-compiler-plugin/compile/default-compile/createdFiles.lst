@@ -1,0 +1,14 @@
+com\example\healthhub\repository\PatientRepository.class
+com\example\healthhub\dto\HealthRecordDTO.class
+com\example\healthhub\HealthHubApplication.class
+com\example\healthhub\service\PatientServiceImpl.class
+com\example\healthhub\controller\PatientController.class
+com\example\healthhub\exception\GlobalExceptionHandler.class
+com\example\healthhub\controller\HealthRecordController.class
+com\example\healthhub\dto\PatientDTO.class
+com\example\healthhub\repository\HealthRecordRepository.class
+com\example\healthhub\entity\HealthRecord.class
+com\example\healthhub\service\HealthRecordServiceImpl.class
+com\example\healthhub\service\PatientService.class
+com\example\healthhub\entity\Patient.class
+com\example\healthhub\service\HealthRecordService.class
