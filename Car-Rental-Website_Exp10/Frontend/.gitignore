@@ -1,0 +1,44 @@
+# Node.js dependencies
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Build outputs (for frontend and backend)
+dist/
+build/
+out/
+*.tsbuildinfo
+
+# React specific
+*.cache
+.cache/
+.vite/
+public/build/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE/editor folders
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Optional: temporary files
+*.tmp
+*.temp

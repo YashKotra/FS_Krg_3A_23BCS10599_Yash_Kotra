@@ -1,4 +1,4 @@
-import { useAuth } from '../context/AuthContext'
+mport { useAuth } from '../context/AuthContext'
 
 export default function Dashboard() {
   const { role } = useAuth()

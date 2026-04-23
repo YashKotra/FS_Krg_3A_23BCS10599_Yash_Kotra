@@ -1,0 +1,17 @@
+{
+  "brands": [
+    "Tesla",
+    "BMW",
+    "Audi",
+    "Mercedes-Benz",
+    "Ford",
+    "Chevrolet",
+    "Lamborghini",
+    "Porsche"
+  ],
+  "types": ["Sedan", "SUV", "Coupe", "Convertible", "Hatchback"],
+  "transmissions": ["Automatic", "Manual"],
+  "fuelTypes": ["Petrol", "Diesel", "Electric", "Hybrid"],
+  "seats": ["2", "4", "5", "7"],
+  "priceRange": { "min": 50, "max": 5000 }
+}
